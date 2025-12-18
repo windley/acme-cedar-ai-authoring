@@ -1,0 +1,22 @@
+{
+    "principal": {
+      "type": "User",
+      "id": "alice",
+      "attributes": {
+        "role": "customer"
+      }
+    },
+    "action": "view",
+    "resource": {
+      "type": "Document",
+      "id": "doc-123",
+      "attributes": {
+        "owner": "alice"
+      }
+    },
+    "context": {
+      "device": {
+        "managed": true
+      }
+    }
+  }
