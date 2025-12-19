@@ -1,6 +1,6 @@
 {
     "sample-request": {
-      "decision": "Permit",
-      "reason": "The principal is the owner of the document and is accessing it from a managed device."
+      "decision": "permit",
+      "reason": "The principal is permitted to view the q3-plan document based on the document’s reader relationship."
     }
 }
