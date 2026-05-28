@@ -33,6 +33,10 @@ Before accepting any AI-assisted policy change, confirm that:
 - All entities, actions, and attributes exist in `acme.cedarschema`.
 - No attributes are assumed or inferred.
 - Any schema change is proposed separately and reviewed explicitly.
+- Policy `principal` / `resource` types, actions, and `when` / `unless` fields (including `context.*`) match the schema; nothing is invented for convenience.
+- Example requests and tests use fully qualified types and action names from the schema (for example, `ACME::Customer`, `ACME::Action::"doc:view"`), not informal shorthand (`User`, `Action::"view"`).
+- Principal and resource IDs in requests match entities in `acme-entities.json` (correct entity type and id).
+- Request `context` fields match the schema; do not omit context when the evaluator requires it.
 
 ### 4. Policy interactions are considered
 - The policy does not unintentionally override or combine with existing policies.

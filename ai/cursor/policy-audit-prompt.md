@@ -7,6 +7,7 @@ Constraints:
 	•	Do not propose policy changes, refactors, or new policies.
 	•	Do not invent entities, actions, attributes, or relationships.
 	•	Do not suggest how policies could be improved or simplified.
+	•	Before explaining a request outcome, verify the request against `cedar/acme.cedarschema` and `cedar/acme-entities.json`: principal and resource types, action names, IDs, and context fields must match what is defined there. If they do not, say so before analyzing policy effects.
 
 You may:
 	•	Explain why specific requests are permitted or denied.

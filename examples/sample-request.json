@@ -1,5 +1,6 @@
 {
-    "principal": "User::\"kate\"",
-    "action": "Action::\"view\"",
-    "resource": "Document::\"q3-plan\""
+    "principal": "ACME::Customer::\"kate\"",
+    "action": "ACME::Action::\"doc:view\"",
+    "resource": "ACME::Document::\"q3-plan\"",
+    "context": {}
 }

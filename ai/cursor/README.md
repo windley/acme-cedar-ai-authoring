@@ -2,7 +2,7 @@
 
 This directory demonstrates how AI-assisted development tools—such as Cursor—can be used to help **author, review, and refine Cedar authorization policies** safely. The goal is to improve the human workflow around policy-as-code without weakening deterministic policy evaluation or enforcement.
 
-This material supports **Appendix B** of *Dynamic Authorization* and builds directly on the ACME Cedar schema and policies introduced in Appendix A.
+This material supports **Appendix B** of *Authorization in Action* and builds directly on the ACME Cedar schema and policies introduced in Appendix A.
 
 ## Scope and boundaries
 
@@ -67,6 +67,7 @@ When opening this repository in Cursor:
    - Propose the smallest possible policy change
    - Explain what access the policy grants and denies
    - Identify potential edge cases or abuse scenarios
+   - Verify example requests against `acme.cedarschema` and `acme-entities.json` before explaining outcomes
 
 Do not allow Cursor to automatically apply changes without review.
 
